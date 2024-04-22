@@ -31,4 +31,5 @@ getsepia(): void {
 const abhinav = new marvel("ironman" , "ironSuite" , true )
 abhinav.getsepia()
 
+
 console.log(abhinav.isAlive);

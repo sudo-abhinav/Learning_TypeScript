@@ -9,7 +9,7 @@ constructor(public name:string , public HeroPower  :string){}
 abstract getsepia():void;
 
 }
-
+//  const tausif = new hero()
 // TODO :- Cannot create an instance of an abstract class.ts(2511) this error gives you typescript when you try to create abstract class object
 
 // if we want to create a object from abstract class first we have to inherit in some other class

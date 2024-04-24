@@ -1,4 +1,5 @@
-var myuser = {
+"use strict";
+let myuser = {
     _id: "uyt",
     name: "abhinav",
     email: "a@a.com",

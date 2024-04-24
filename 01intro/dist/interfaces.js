@@ -1,47 +1,46 @@
 "use strict";
 // TODO Interfaces;
 Object.defineProperty(exports, "__esModule", { value: true });
-var transcation1 = {
+const transcation1 = {
     payeeAccountNumber: 765,
     payerAccountNumber: 123,
 };
-var transcation2 = {
+const transcation2 = {
     payeeAccountNumber: 723,
     payerAccountNumber: 345,
 };
-var bankaccount = {
+const bankaccount = {
     accountNumber: 98766,
     accountHolder: "abhinav kumar",
     balance: 7800,
     isActive: true,
     transcation: [transcation1, transcation2],
 };
-var userbook = {
+let userbook = {
     name: "humpty dumpty",
     price: 234,
     FileSize: 300,
     format: "epub",
     duration: 5,
 };
-var flyingObject = {
+let flyingObject = {
     name: "Airbus A380",
     FuelCapacity: 1000,
     Weight: 3500,
     isActive: true,
     pasangerCapacity: 90,
 };
-var buggydata = {
+let buggydata = {
     id: 22,
     name: "abhi",
     email: "name#b.com",
-    startTrail: function () {
+    startTrail: () => {
         return "sguu";
     },
-    getCoupon: function (coupon) {
+    getCoupon: (coupon) => {
         return 10;
     }
 };
-console.log(buggydata.getCoupon);
 // TODO this is called unions we are making using PIPE "|"
 function printID(id) {
     // console.log(id);
@@ -65,7 +64,7 @@ function getFirstThree(x) {
 }
 // console.log(getFirstThree('sbhuyg'));
 console.log(getFirstThree(["abhinav", "alok", "tausif", "ankt", "uppen", "yogi"]));
-var abhinav = {
+let abhinav = {
     name: "abhi ",
     id: 98,
 };

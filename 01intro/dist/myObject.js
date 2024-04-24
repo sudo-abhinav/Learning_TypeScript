@@ -6,7 +6,7 @@
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
 // TODO here i make  address is optional 
-var user = {
+const user = {
     name: "abhinav",
     age: 27
 };
@@ -19,3 +19,4 @@ function userData(userdata) {
     }
 }
 console.log(userData(user));
+const userID = 1234;
